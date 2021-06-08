@@ -27,6 +27,7 @@ post_install do |installer|
     target.build_configurations.each do |config|
       config.build_settings['SWIFT_VERSION'] = '4.0'
       config.build_settings['MACOSX_DEPLOYMENT_TARGET'] = '10.10'
+      config.build_settings['CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER'] = 'NO'
     end
   end
 end
