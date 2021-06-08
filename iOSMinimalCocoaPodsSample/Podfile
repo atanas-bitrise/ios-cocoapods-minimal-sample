@@ -10,6 +10,7 @@ target 'iOSMinimalCocoaPodsSample' do
   pod 'ORStackView', '~> 3.0'
   pod 'SwiftyJSON', '~> 4.0'
   pod 'Parse', :git => 'https://github.com/ParsePlatform/Parse-SDK-iOS-OSX.git', :commit => '931684b3dce25ec447d3df38b02e988970663c24'
+  pod 'Firebase/Analytics'
 end
 
 target 'iOSMinimalCocoaPodsSampleTests' do
